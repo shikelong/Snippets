@@ -10,13 +10,13 @@
 			"import React from 'react';",
 			"",
 			"",
-			"interface I${1:${TM_FILENAME_BASE}}Props {",
+			"type ${1:${TM_FILENAME_BASE}}Props = {",
 			"",
 			"",
 			"}",
 			"",
 			"",
-			"const ${1:${TM_FILENAME_BASE}} = (props: I${1:${TM_FILENAME_BASE}}Props) => {",
+			"const ${1:${TM_FILENAME_BASE}} = (props: ${1:${TM_FILENAME_BASE}}Props) : JSX.Element => {",
 			"",
 			"",
 			"  return (<div></div>);",
@@ -24,7 +24,7 @@
 			"",
 			"",
 			"",
-			"export default ${1:${TM_FILENAME_BASE}};",
+			"export default ${1:${TM_FILENAME_BASE}};"
 		],
 		"description": "create a new react component"
 	}
