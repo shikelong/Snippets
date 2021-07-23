@@ -17,7 +17,7 @@ const {{toPascalCase pageName}}Api = serviceApi.injectEndpoints({
           isAutoLoading: false,
         },
       }),
-      transformResponse: (response: ServiceResponse<I{{toPascalCase pageName}}) => {
+      transformResponse: (response: ServiceResponse<I{{toPascalCase pageName}}>) => {
         return response.data;
       },
     }),
