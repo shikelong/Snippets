@@ -1,0 +1,19 @@
+{
+	"frontmatter": {
+		"prefix": "frontmatter",
+		"body": [
+			"---",
+			"id: \"${UUID}\"",
+			"title: \"${TM_FILENAME_BASE/[-]/ /}\"",
+			"slug: \"${TM_FILENAME_BASE}\"",
+			"date: \"${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}\"",
+			"draft: true",
+			"category: \"$1\"",
+			"description: \"$2\"",
+			"tags:",
+			"  - \"$3\"",
+			"---",
+		],
+		"description": "frontmatter for my personal gatsby blog"
+	}
+}
