@@ -1,5 +1,4 @@
 import configureStore from 'redux-mock-store';
-import { mount } from 'enzyme';
 
 import {{toPascalCase pageName}} from '../components/{{toPascalCase pageName}}';
 
